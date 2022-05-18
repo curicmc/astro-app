@@ -19,11 +19,14 @@ function App() {
             Discord Community
 
         </Button>
-        <Button className="grey" variant="primary" size="lg" href="https://www.instagram.com/sfuastronomyclub/">
-          Instagram (Under Construction)
+        <Button className="pink" variant="primary" size="lg" href="https://www.instagram.com/sfuastronomyclub/">
+          Follow our Instagram
         </Button>
-        <img src={logo} className="App-logo" alt="logo" />
 
+        <img src={logo} className="App-logo" alt="logo" />
+          <Button className="purple" variant="outline-light" href="https://forms.gle/AmknHG8qEdkck3Dh9">
+              Interested in helping out? Click me!
+          </Button>
       </header>
 
       <footer className="footer">
