@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import discordIcon from './Discord-Logo-White.svg';
+import twitterIcon from './TwitterSocial.png';
 import circleIcon from './circle-icon.png';
 import './App.css';
 import Button from 'react-bootstrap/Button';
@@ -22,6 +23,14 @@ function App() {
         <Button className="pink" variant="primary" size="lg" href="https://www.instagram.com/sfuastronomyclub/">
           Follow our Instagram
         </Button>
+        <div>
+            <Button className="blueFacebook" variant="primary" size="lg" href="https://www.facebook.com/sfuastronomyclub">
+                Like our Facebook
+            </Button>
+            <Button className="blueTwitter" variant="primary" size="lg" href="https://twitter.com/SFUAstro">
+                <img src={twitterIcon} className="icon" alt="twitter icon" />
+            </Button>
+        </div>
 
         <img src={logo} className="App-logo" alt="logo" />
           <Button className="purple" variant="outline-light" href="https://forms.gle/AmknHG8qEdkck3Dh9">
