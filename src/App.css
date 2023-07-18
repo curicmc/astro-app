@@ -103,10 +103,33 @@
   margin: 6px;
 }
 
+.event_button {
+  background-color: #2e5ebd !important;
+  margin: 6px;
+}
+
+.event_box{
+  background-color: #fff093 !important;
+  border-radius: 10px;
+  color: black;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-inline: 10px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.event_text{
+  margin-block: auto;
+  font-size: 1.2rem !important;
+}
+
 .footer {
   flex-shrink: 0;
   text-align: center;
-
   color: #757585;
 
 }
